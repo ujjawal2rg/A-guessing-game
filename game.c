@@ -23,7 +23,7 @@ int main()
     do
     {
 
-        printf("***Enter Number Between 10 to 100 ***\n");
+        printf("***Enter Number Between 1 to 100 ***\n");
         scanf("%d", &i);
 
         if (i > r)
@@ -47,6 +47,12 @@ int main()
     while (i != r);
 
     printf("***Congrats You WIN ****\n");
+    char y[20];
+    char n[20];
+    printf("****Play Again yes / no \n****");
+    scanf("%s%s",&y,&n);
+    printf(" Play Again :%s\n",&y);
+    printf("Not Play Again: %s",&n);
 
     return 0;
 }
